@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY CV</title>
+</head>
+<body>
+	<header>
+		<p>CURICULUM <span style="color: #6D6A6A;">VITAE</span></p>
+	</header>
+	<main>
+		<nav>
+			<ul>
+				<li><a href="cv.html">Home</a></li>
+				<li><a href="about_me.html">About Me</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="experience.html">Experience</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<article>
+			<div class="pendidikan">
+				<div class="timeline">
+					<ul class="timeline_kiri">
+						<h3>Education</h3>
+						<li>
+							<span class="variabel">2009</span>
+							<span class="nilai">SD NEGERI BACEM 2</span>
+						</li>
+						<li>
+							<span class="variabel">2015</span>
+							<span class="nilai">SMP NEGERI 1 SUTOJAYAN</span>
+						</li>
+						<li>
+							<span class="variabel">2018</span>
+							<span class="nilai">SMK NEGERI 1 BLITAR</span>
+						</li>
+						<li>
+							<span class="variabel">2021</span>
+							<span class="nilai">POLITEKNIK NEGERI SEMARANG</span>
+						</li>
+					</ul>
+					<ul class="timeline_kanan">
+						<h3>Skilss</h3>
+						<li>Designing <span style="color: cyan;">PCB </span></li>
+						<li>Repairing <span style="color: cyan;">Electronics</span></li>
+						<li>Arduino <span style="color: cyan;">Programming</span></li>
+						<li>Data Scientist <span style="color: cyan;">Junior</span></li>
+						<li>Robotics <span style="color: cyan;">Builder</span></li>
+						<li>Telecomunication <span style="color: cyan;">Engineer</span></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+	</main>
+	<footer>
+		<span class="teks">copyright&copy; Telkom 2023</span>
+	</footer>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display&display=swap');
+		body{
+			background-color: #211f1f;
+			color: #fff;
+			font-family: Verdana, Geneva, sans-serif;
+		}
+
+		header{
+				width: 800px; height: 120px;
+				margin: 0 auto 0 auto;
+				font-family: Verdana, Geneva, sans-serif; 
+				font-size: 36px; 
+				color: white; 
+				text-align: center; 
+				line-height: 120px;
+
+		}
+
+		h1{
+			font-size: 24px;
+			line-height: 70px;
+		}
+
+		main{
+			width: 800px; 
+			height: 190px; 
+			margin: 5px auto 0 auto;
+			animation: transitionIn 1s;
+		}
+
+		nav{
+			width: 23%; height: 100%; float: left;
+		}
+
+		nav ul{
+			margin: 0; padding: 0;
+		}
+
+		nav ul li{
+			list-style-type: none;
+			font-family: 'Lora', serif;
+			font-family: Verdana, Geneva, sans-serif; 
+			font-size: 18px;
+			line-height: 30px; padding-left: 20px; margin-bottom: 2px;
+			background-color: transparent; 
+			border-radius: 8px;
+			-webkit-transition: all ease 0.5s; transition: all ease 0.5s; 
+		}
+
+		nav ul li:hover{
+			background-color: #2a2a2a; cursor: pointer; padding-left: 50px; color: white; 
+			-ms-transform: scale(1.1,1.1);
+			-webkit-transform: scale(1.1,1.1);
+			-transform: scale(1.1,1.1);
+		}
+
+		article{
+			display: flex;
+			table-layout: fixed;;
+			width: auto; 
+			height: 100%; 
+			text-align: center; 
+			line-height: 1.6;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		a:link, a:visited{
+			text-decoration: none; color: white;
+		}
+
+		footer{
+			width: 800px; height: 40px; margin: 5px auto 0 auto; text-align: center; line-height: 200px; background-color: transparent;
+		}
+
+		.teks{
+			text-align: center;
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 12px; 
+				color: white;
+		}
+
+		.pendidikan{
+			display: table;
+			width: 100%;
+		}
+
+		.timeline{
+			position: relative;
+			display: table;
+			width: 100%%
+			padding-bottom: 15px;
+		}
+
+		.timeline_kiri{
+			display: table-cell;
+			width: 50%;
+			text-align: left;
+			list-style-type: none;
+			line-height: 1.6;
+			padding-left: 50px;
+			font-size: 12px;
+		}
+
+		.variabel{
+			color: cyan;
+		}
+
+		.timeline_kanan{
+			display: table-cell;
+			width: 50%;
+			text-align: right;
+			list-style-type: none;
+			line-height: 1.6;
+			padding-right: 100px ;
+			font-size: 12px;
+		}
+		p{
+			text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+
+		}
+		
+		@keyframes transitionIn{
+				from{
+					opacity: 0;
+					transform: rotateX(-10deg);
+				}
+				to{
+					opacity: 1;
+					transform: rotateX(0);
+				}
+			} 
+
+	</style>
+</body>
+</html>
